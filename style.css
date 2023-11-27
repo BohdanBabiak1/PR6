@@ -1,0 +1,61 @@
+/* faster-one-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Faster One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/faster-one-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+  
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+}
+
+.headerCity{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Faster One';
+    font-size: 45px;
+}
+h2{
+    font-family: 'Faster One';
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+p, li{
+    margin: 2px 0 2px 0;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+section{
+    display: flex;
+    margin-top: 20px;
+}
+
+.sectionHero{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.sectionHero:not(:first-child):not(:last-child){
+    margin: 0 20px 0 20px;
+}
+
+ul{
+    margin: 2px 0 2px 0;
+    padding-left: 30px;
+}
